@@ -9,14 +9,14 @@
     <h1>Add Annonce</h1>
     <form method="post" action="">
         <label for="title">Title:</label><br>
-        <input type="text" id="title" name="title"><br>
+        <input type="text" id="title" name="title" required><br>
         <label for="description">Description:</label><br>
-        <textarea id="description" name="description"></textarea><br>
+        <textarea id="description" name="description" required></textarea><br>
         <label for="adress">Adress:</label><br>
-        <input type="text" id="adress" name="adress"><br>
+        <input type="text" id="adress" name="adress" required><br>
         <label for="mail">Email:</label><br>
-        <input type="email" id="mail" name="mail"><br>
-        <input type="submit" value="Submit">
+        <input type="email" id="mail" name="mail" required><br>
+        <input type="submit" value="Submit" required>
     </form>
 </body>
 </html>

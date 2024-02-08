@@ -10,5 +10,7 @@
 <a href="hello-servlet">Hello Servlet</a>
 <br/>
 <a href="annonce-add">Annonce Add</a>
+<br/>
+<a href="annonce-list">Annonce List</a>
 </body>
 </html>
